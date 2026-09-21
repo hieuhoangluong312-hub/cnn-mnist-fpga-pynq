@@ -95,6 +95,16 @@ then open `http://<board-ip>:5000` and draw a digit.
 - The core ignores `m_axis_tready` (no back-pressure); the block design places an `axis_data_fifo` on the output to buffer
   the result.
 
+## License
+
+Released under the [MIT License](LICENSE), Copyright (c) 2026 LUONGHOANGHIEU.
+
+Third-party material keeps its own notices and is not relicensed by the root `LICENSE`:
+- the RTL modules in `vivado/NhanDienChuVietTay/NhanDienChuVietTay.srcs/sources_1/imports/module` and the testbenches carry the
+  copyright header of Bo Young Kang and are kept unchanged;
+- the web libraries bundled in `deploy/pynq_z2/app/static` (Bootstrap, jQuery, Popper, Paper.js) are MIT-licensed by their authors;
+- AMD/Xilinx IP cores used in the block design are subject to AMD's license terms.
+
 ## Origin and project scope
 
 - **Origin:** the RTL CNN core and the train -> export `.mem` -> simulate flow are based on the design by Bo Young Kang
