@@ -1,0 +1,11 @@
+# Training / export notebooks (model/) and tools/golden_model.py
+numpy
+torch
+torchvision
+pillow
+matplotlib
+jupyter
+
+# tools/golden_model.py itself only needs numpy.
+# Board side (deploy/pynq_z2/app): flask; `pynq` is preinstalled on the PYNQ-Z2 image.
+flask

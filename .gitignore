@@ -1,0 +1,28 @@
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Datasets (downloaded by torchvision in model/cnn_mnist.ipynb)
+model/data/
+
+# Vivado generated output - regenerate from the .xpr / .bd
+*.cache/
+*.gen/
+*.runs/
+*.sim/
+*.ip_user_files/
+*.hw/
+*.jou
+*.log
+!sim/results/*.log
+*.str
+*.dcp
+!vivado/**/utils_1/**/*.dcp
+.Xil/
+xsim.dir/
+*.wdb
+*.backup.*
+*.bak

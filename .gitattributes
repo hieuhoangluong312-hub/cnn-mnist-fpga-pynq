@@ -1,0 +1,12 @@
+* text=auto
+
+# binary artefacts
+*.bit   binary
+*.dcp   binary
+*.pt    binary
+*.bmp   binary
+*.pb    binary
+
+# keep line endings stable for simulator data files
+*.mem   text eol=lf
+*.txt   text eol=lf
